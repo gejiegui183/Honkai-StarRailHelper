@@ -4,7 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/Project/PRJ02/app/src/main/res/drawable/circle_image.xml" value="0.2861111111111111" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2861111111111111" />
         <entry key="..\:/Android/Project/PRJ02/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.321875" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2861111111111111" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/drawable/repeat_bg.xml" value="0.2861111111111111" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/drawable/repeat_bg2.xml" value="0.2861111111111111" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/drawable/repeat_bg3.xml" value="0.25" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/drawable/repeat_bg4.xml" value="0.2861111111111111" />
         <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_achievement.xml" value="0.27175925925925926" />
         <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_achivment.xml" value="0.2708333333333333" />
         <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_charactor.xml" value="0.2708333333333333" />
@@ -24,7 +30,7 @@
         <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_simulator.xml" value="0.2708333333333333" />
         <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_splash.xml" value="0.276268115942029" />
         <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_statistic.xml" value="0.2708333333333333" />
-        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_userlogin.xml" value="0.25" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_userlogin.xml" value="0.3333333333333333" />
         <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/fragment_dashboard.xml" value="0.3333333333333333" />
         <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/fragment_home.xml" value="0.5" />
         <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/fragment_morefunctions.xml" value="0.2980072463768116" />

@@ -35,6 +35,8 @@ public class MorefunctionsFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
+        //抽卡排行
         ImageButton drawCard = (ImageButton) getActivity().findViewById(R.id.imageButton6);
         drawCard.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +46,7 @@ public class MorefunctionsFragment extends Fragment {
             }
         });
 
+        //伤害排行
         ImageButton damageRank = (ImageButton) getActivity().findViewById(R.id.imageButton8);
         damageRank.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +56,7 @@ public class MorefunctionsFragment extends Fragment {
             }
         });
 
+        //光锥排行
         ImageButton elementRank = (ImageButton) getActivity().findViewById(R.id.imageButton9);
         elementRank.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,6 +66,7 @@ public class MorefunctionsFragment extends Fragment {
             }
         });
 
+        //大数据统计
         ImageButton statistic = (ImageButton) getActivity().findViewById(R.id.imageButton10);
         statistic.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,6 +76,7 @@ public class MorefunctionsFragment extends Fragment {
             }
         });
 
+        //角色喜爱度
         ImageButton favorite = (ImageButton) getActivity().findViewById(R.id.imageButton11);
         favorite.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,6 +86,7 @@ public class MorefunctionsFragment extends Fragment {
             }
         });
 
+        //抽卡历史
         ImageButton drawCardHistory = (ImageButton) getActivity().findViewById(R.id.imageButton12);
         drawCardHistory.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -89,7 +96,8 @@ public class MorefunctionsFragment extends Fragment {
             }
         });
 
-        ImageButton drawCardMethod = (ImageButton)  getActivity().findViewById(R.id.imageButton13);
+        //抽卡玄学
+        ImageButton drawCardMethod = (ImageButton)  getActivity().findViewById(R.id.imageButton17);
         drawCardMethod.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -98,6 +106,7 @@ public class MorefunctionsFragment extends Fragment {
             }
         });
 
+        //成就
         ImageButton achievement = (ImageButton) getActivity().findViewById(R.id.imageButton14);
         achievement.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -107,7 +116,8 @@ public class MorefunctionsFragment extends Fragment {
             }
         });
 
-        ImageButton simulator = (ImageButton) getActivity().findViewById(R.id.imageButton15);
+        //抽卡模拟
+        ImageButton simulator = (ImageButton) getActivity().findViewById(R.id.imageButton18);
         simulator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -116,7 +126,8 @@ public class MorefunctionsFragment extends Fragment {
             }
         });
 
-        ImageButton score = (ImageButton) getActivity().findViewById(R.id.imageButton16);
+        //喜爱度评分
+        ImageButton score = (ImageButton) getActivity().findViewById(R.id.imageButton19);
         score.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -125,7 +136,8 @@ public class MorefunctionsFragment extends Fragment {
             }
         });
 
-        ImageButton predict = (ImageButton) getActivity().findViewById(R.id.imageButton17);
+        //抽卡预测
+        ImageButton predict = (ImageButton) getActivity().findViewById(R.id.imageButton21);
         predict.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

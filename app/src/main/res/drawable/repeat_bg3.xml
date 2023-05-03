@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
         android:dither="true"
-        android:src="@drawable/start"
+        android:src="@drawable/frame2"
         android:alpha="0.3"
         android:tileMode="disabled"/>
