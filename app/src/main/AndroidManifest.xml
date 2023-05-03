@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.starrailtoolbox">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.StarRailToolBox">
+        <activity
+                android:name=".ui.home.function.UserloginActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.home.function.QueryActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.home.function.Charactor"
+                  android:exported="true"/>
+        <activity
+                android:name=".ui.home.function.Achievement"
+                  android:exported="true"/>
+        <activity
+                android:name=".ui.home.function.PictureGetter"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.home.function.Element"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.morefunctions.functions.DrawCardRank"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.morefunctions.functions.DamageRank"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.morefunctions.functions.ElementRank"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.morefunctions.functions.Statistic"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.morefunctions.functions.Favorite"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.morefunctions.functions.DrawCardHistory"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.morefunctions.functions.DrawCardMethod"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.morefunctions.functions.DrawCardSimulator"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.morefunctions.functions.Score"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.morefunctions.functions.Predict"
+                android:exported="true"/>
+        <activity
+                android:name=".SplashActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:exported="true"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

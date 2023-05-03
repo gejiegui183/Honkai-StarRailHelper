@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/drawable/circle_image.xml" value="0.2861111111111111" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.321875" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_achievement.xml" value="0.27175925925925926" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_achivment.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_charactor.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_damagerank.xml" value="0.27175925925925926" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_drawcardhistory.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_drawcardmethod.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_drawcardrank.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_element.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_elementrank.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_favorite.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_favoritescore.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_harmrank.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_main.xml" value="0.276268115942029" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_pic.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_predict.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_query.xml" value="0.27175925925925926" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_simulator.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_splash.xml" value="0.276268115942029" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_statistic.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/activity_userlogin.xml" value="0.25" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/fragment_dashboard.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/fragment_morefunctions.xml" value="0.2980072463768116" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/layout/fragment_notifications.xml" value="0.2980072463768116" />
+        <entry key="..\:/Android/Project/PRJ02/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3203125" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
