@@ -10,22 +10,21 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.StarRailToolBox">
         <activity
-                android:name=".ui.home.function.UserloginActivity"
-                android:exported="true"/>
+                android:name=".ui.home.function.ElementActivity"
+                android:exported="true"
+                android:label="@string/title_activity_element"/>
         <activity
                 android:name=".ui.home.function.QueryActivity"
+                android:exported="true"
+                android:label="@string/title_activity_query"/>
+        <activity
+                android:name=".ui.home.function.Achievement"
                 android:exported="true"/>
         <activity
                 android:name=".ui.home.function.Charactor"
-                  android:exported="true"/>
-        <activity
-                android:name=".ui.home.function.Achievement"
-                  android:exported="true"/>
-        <activity
-                android:name=".ui.home.function.PictureGetter"
                 android:exported="true"/>
         <activity
-                android:name=".ui.home.function.Element"
+                android:name=".ui.home.function.PictureGetter"
                 android:exported="true"/>
         <activity
                 android:name=".ui.morefunctions.functions.DrawCardRank"

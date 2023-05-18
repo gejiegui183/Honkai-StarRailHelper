@@ -1,6 +1,10 @@
 package com.example.starrailtoolbox.ui.morefunctions.functions;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
 import android.view.MenuItem;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -16,7 +20,9 @@ public class Score extends AppCompatActivity {
         setContentView(R.layout.activity_favoritescore);
         ActionBar actionBar = this.getSupportActionBar();
         if (actionBar != null) {
-            actionBar.setTitle("角色好感评分");
+            Spannable text = new SpannableString("好感度评分");
+            text.setSpan(new ForegroundColorSpan(Color.rgb(255,218,130)) , 0 , text.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+            actionBar.setTitle(text);
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
     }

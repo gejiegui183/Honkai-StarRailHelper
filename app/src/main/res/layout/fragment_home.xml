@@ -8,6 +8,8 @@
         android:background="@drawable/repeat_bg"
         android:id="@+id/navigation_home"
         tools:context=".ui.home.HomeFragment">
+
+
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="120dp"
@@ -17,7 +19,7 @@
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintHorizontal_bias="0.018" app:layout_constraintVertical_bias="0.748">
         <ImageButton
-                android:src="@drawable/ic_launcher_foreground"
+                android:src="@drawable/button_pic01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:id="@+id/imageButton4" android:layout_weight="1"
         />
@@ -102,9 +104,9 @@
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintVertical_bias="0.296">
         <TextView
-                android:text="UID:337845818"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView2"/>
+                android:layout_height="wrap_content"
+                android:id="@+id/userUID"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
@@ -122,12 +124,22 @@
                 android:id="@+id/button4"
                 android:layout_weight="1"/>
     </LinearLayout>
-    <ImageView
+    <ImageButton
+            android:scaleType="centerCrop"
             android:src="@drawable/pic01"
-            android:layout_width="356dp"
-            android:layout_height="167dp" android:id="@+id/imageView4"
+            android:layout_width="304dp"
+            android:layout_height="163dp" android:id="@+id/imageButton24"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.495" app:layout_constraintVertical_bias="0.024"/>
+
+    <FrameLayout
+            android:id="@+id/framelayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintVertical_bias="0.023"/>
+            app:layout_constraintVertical_bias="0.0"></FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

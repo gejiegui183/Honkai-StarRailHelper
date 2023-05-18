@@ -17,14 +17,20 @@
             android:label="@string/title_dashboard"
             tools:layout="@layout/fragment_dashboard"/>
 
-    <fragment
-            android:id="@+id/navigation_notifications"
-            android:name="com.example.starrailtoolbox.ui.notifications.NotificationsFragment"
-            android:label="@string/title_notifications"
-            tools:layout="@layout/fragment_notifications"/>
+<!--    <fragment-->
+<!--            android:id="@+id/navigation_notifications"-->
+<!--            android:name="com.example.starrailtoolbox.ui.notifications.NotificationsFragment"-->
+<!--            android:label="@string/title_notifications"-->
+<!--            tools:layout="@layout/fragment_notifications"/>-->
+
+<!--   <fragment-->
+<!--            android:id="@+id/navigation_morefunctions"-->
+<!--            android:name="com.example.starrailtoolbox.ui.morefunctions.MorefunctionsFragment"-->
+<!--            android:label="@string/title_morefunctions"-->
+<!--            tools:layout="@layout/fragment_morefunctions"/>-->
 
     <fragment
-            android:id="@+id/navigation_morefunctions"
+            android:id="@+id/navigation_notifications"
             android:name="com.example.starrailtoolbox.ui.morefunctions.MorefunctionsFragment"
             android:label="@string/title_morefunctions"
             tools:layout="@layout/fragment_morefunctions"/>

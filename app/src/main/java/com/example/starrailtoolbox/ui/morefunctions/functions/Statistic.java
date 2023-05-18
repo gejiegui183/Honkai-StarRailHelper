@@ -1,6 +1,10 @@
 package com.example.starrailtoolbox.ui.morefunctions.functions;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
 import android.view.MenuItem;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -16,7 +20,9 @@ public class Statistic extends AppCompatActivity {
         setContentView(R.layout.activity_statistic);
         ActionBar actionBar = this.getSupportActionBar();
         if (actionBar != null) {
-            actionBar.setTitle("大数据统计");
+            Spannable text = new SpannableString("大数据统计");
+            text.setSpan(new ForegroundColorSpan(Color.rgb(255,218,130)) , 0 , text.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+            actionBar.setTitle(text);
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
     }

@@ -22,7 +22,6 @@ public class MorefunctionsFragment extends Fragment {
 
         binding = FragmentMorefunctionsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
         return root;
     }
 

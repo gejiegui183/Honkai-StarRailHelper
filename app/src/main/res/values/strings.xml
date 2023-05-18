@@ -1,7 +1,20 @@
 <resources>
     <string name="app_name">StarRailToolBox</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">角色展示</string>
+    <string name="title_notifications">更多功能</string>
     <string name="title_morefunctions">Morefunctions</string>
+    <string name="title_activity_query">QueryActivity</string>
+    <string name="tab_query_1">跃迁记录</string>
+    <string name="tab_query_2">跃迁查询</string>
+    <string name="tab_query_3">跃迁排行</string>
+    <string name="tab_element_1">光锥</string>
+    <string name="tab_element_2">遗器</string>
+    <string name="tab_element_3">养成材料</string>
+    <string name="tab_element_4">消耗品</string>
+    <string name="tab_element_5">阅读物</string>
+    <string name="tab_element_6">任务道具</string>
+    <string name="tab_element_7">贵重物</string>
+    <string name="tab_element_8">其他材料</string>
+    <string name="title_activity_element">ElementActivity</string>
 </resources>

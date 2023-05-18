@@ -1,6 +1,10 @@
 package com.example.starrailtoolbox.ui.morefunctions.functions;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
 import android.view.MenuItem;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -16,7 +20,9 @@ public class DrawCardMethod extends AppCompatActivity {
         setContentView(R.layout.activity_drawcardmethod);
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
-            actionBar.setTitle("跃迁玄学");
+            Spannable text = new SpannableString("跃迁玄学");
+            text.setSpan(new ForegroundColorSpan(Color.rgb(255,218,130)) , 0 , text.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+            actionBar.setTitle(text);
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
     }
